@@ -1,7 +1,7 @@
 .homepage_logo {
     display: flex;
     justify-content: center;
-    padding-top: 15em;
+    padding-top: 10em;
 }
 
 .logo {
@@ -39,7 +39,7 @@ img {
     .homepage_logo {
         display: flex;
         justify-content: center;
-        padding-top: 25em;
+        padding-top: 15em;
     }
 
     .homepage_nav {
