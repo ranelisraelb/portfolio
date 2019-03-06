@@ -1,12 +1,12 @@
 .homepage_logo {
     display: flex;
     justify-content: center;
-    padding-top: 10em;
+    margin: 7.5em 0 0 0;
 }
 
 .logo {
-    width: 15em;
-    height: 15em;
+    width: 10em;
+    height: 10em;
 }
 
 .homepage_nav {
@@ -15,8 +15,8 @@
     align-items: center;
     font-family: poppins;
     list-style-type: none;
-    padding-top: 2em;
-    font-size: 3rem;
+    margin: 1.5em 0 0 0;
+    font-size: 3em;
 }
 
 a {
@@ -27,19 +27,24 @@ a {
 
 .circle_spacer {
     display: flex;
-    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
 }
 
-img {
-    width: .75rem;
-    height: .75rem;
+.circleimage {
+    width: .25em;
+    height: .25em;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1080px) {
     .homepage_logo {
         display: flex;
         justify-content: center;
-        padding-top: 15em;
+        margin: 10em 2.5em 0 0;
+    }
+
+    .logo {
+        width: 20em;
+        height: 20em;
     }
 
     .homepage_nav {
@@ -50,10 +55,8 @@ img {
         flex-direction: row;
         font-family: poppins;
         list-style-type: none;
-        padding-top: 2em;
-        padding-left: 33%;
-        padding-right: 33%;
-        font-size: 2.5rem;
+        margin: 2em 25% 0 25%;
+        font-size: 3rem;
     }
 
     a {
@@ -65,10 +68,11 @@ img {
     .circle_spacer {
         display: flex;
         justify-content: center;
+        margin: 0 1em 0 1em;
     }
 
-    img {
-        width: .75rem;
-        height: .75rem;
+    .circleimage {
+        width: .25em;
+        height: .25em;
     }
 }
