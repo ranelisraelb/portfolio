@@ -61,6 +61,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 0 1em 0;
 }
 
 img {
@@ -72,6 +73,7 @@ img {
     font-family: poppins;
     font-size: 2rem;
     text-align: center;
+    margin: 0 0 -.5em 0;
 }
 
 .job_title {
@@ -81,7 +83,7 @@ img {
 }
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 960px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -118,53 +120,18 @@ img {
         list-style-type: none;
     }
 
+    .sec1,
+    .sec2,
+    .sec3,
+    .sec4 {
+        margin: 0 1em 0 1em;
+    }
+
     .content {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: baseline;
         margin: 5em 15% 0 15%;
+        flex-wrap: wrap;
     }
-
-    .profilepicture {
-        width: 70%;
-        height: auto;
-        border-top-left-radius: 50% 50%;
-        border-top-right-radius: 50% 50%;
-        border-bottom-right-radius: 50% 50%;
-        border-bottom-left-radius: 50% 50%;
-    }
-
-    .headline {
-        font-size: 1.5rem;
-        flex-direction: row;
-        margin: 0 0 1em 0;
-
-    }
-
-    .description {
-        font-size: 1.25rem;
-        margin: 0 0 1em 0;
-        text-align: left;
-    }
-
-    .email {
-        font-size: 1.25rem;
-        text-align: left;
-        margin: 0 0 1em 0;
-    }
-
-    .social_media {
-        font-size: 1.75rem;
-        justify-content: flex-start;
-        margin: 0 2.2em 0 0;
-    }
-
-    #linkedin {
-        margin: 0 .5em 0 0;
-    }
-
-    #github {
-        margin: 0 .5em 0 0;
-    }
-
 }
