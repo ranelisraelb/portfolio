@@ -51,14 +51,34 @@ li {
     margin: 0 10% 0 10%;
     display: flex;
     flex-direction: column;
+    align-items: center
 }
 
-.sec1 {
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+img {
+    width: 25em;
+    height: 25em;
+}
+
+.company_name {
+    font-family: poppins;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.job_title {
+    font-family: poppins;
+    font-size: 1.5;
+    text-align: center;
+}
 
 
 @media only screen and (min-width: 1600px) {
