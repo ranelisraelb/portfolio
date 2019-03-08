@@ -18,6 +18,14 @@
     margin: 2.5em 0 4em 0;
 }
 
+#active {
+    text-decoration: underline;
+}
+
+#active:hover {
+    color: black;
+}
+
 .circlespacer {
     width: .5em;
     height: .5em;
@@ -31,20 +39,12 @@
     font-size: 2rem;
 }
 
+a {
+    transition: color .2s ease-in;
+}
+
 li {
     list-style-type: none;
-}
-
-.logo {
-    width: 10%;
-    height: auto;
-    margin-left: 5em;
-}
-
-.profile_picture {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .content {
@@ -103,11 +103,6 @@ a:hover {
 
     }
 
-    .logo {
-        width: 10em;
-        height: 10em;
-    }
-
     .homepage_nav {
         display: flex;
         flex-direction: row;
@@ -134,7 +129,7 @@ a:hover {
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 5em 15% 0 15%;
         flex-wrap: wrap;
     }
@@ -142,7 +137,8 @@ a:hover {
     .sec1,
     .sec2,
     .sec3,
-    .sec4 {
+    .sec4,
+    .sec5 {
         margin: 0 1em 0 1em;
     }
 

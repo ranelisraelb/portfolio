@@ -18,13 +18,25 @@
     margin: 2.5em 0 4em 0;
 }
 
+a {
+    transition: color .2s ease-in;
+}
+
+#active {
+    text-decoration: underline;
+}
+
+#active:hover {
+    color: black;
+}
+
 .circlespacer {
     width: .5em;
     height: .5em;
     margin: 0 3em 0 3em;
 }
 
-a {
+.navlink {
     font-family: poppins;
     color: black;
     text-decoration: none;
@@ -33,12 +45,6 @@ a {
 
 li {
     list-style-type: none;
-}
-
-.logo {
-    width: 10%;
-    height: auto;
-    margin-left: 5em;
 }
 
 .profile_picture {
@@ -52,7 +58,7 @@ li {
 }
 
 .profilepicture {
-    width: 20em;
+    width: 25em;
     height: auto;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
@@ -66,7 +72,7 @@ li {
     text-align: center;
     align-items: center;
     font-family: poppins;
-    font-size: 2rem;
+    font-size: 1.75em;
     margin: 1em 0 0 0;
 }
 
@@ -76,8 +82,17 @@ li {
     align-content: center;
     text-align: center;
     font-family: poppins;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 1em 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #a9a9a9;
 }
 
 .email {
@@ -86,7 +101,7 @@ li {
     align-content: center;
     text-align: center;
     font-family: poppins;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1.5em 0 0 0;
 }
 
@@ -95,12 +110,15 @@ li {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    font-size: 3rem;
-    margin: 1em 0 1em 0;
+    font-size: 2rem;
+    margin: 1em 10em 1em 10em;
 }
 
+#github {
+    margin: 0 1em 0 1em;
+}
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1249px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -108,11 +126,6 @@ li {
         margin: 4em 15% 0 15%;
         justify-content: space-between;
 
-    }
-
-    .logo {
-        width: 10em;
-        height: 10em;
     }
 
     .homepage_nav {
@@ -126,7 +139,7 @@ li {
         height: .6em;
     }
 
-    a {
+    .navlink {
         font-family: poppins;
         color: black;
         text-decoration: none;
@@ -145,45 +158,42 @@ li {
     }
 
     .profilepicture {
-        width: 70%;
+        width: 30em;
         height: auto;
         border-top-left-radius: 50% 50%;
         border-top-right-radius: 50% 50%;
         border-bottom-right-radius: 50% 50%;
         border-bottom-left-radius: 50% 50%;
+        margin: 0 10em 0 0;
     }
 
     .headline {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         flex-direction: row;
         margin: 0 0 1em 0;
 
     }
 
     .description {
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin: 0 0 1em 0;
         text-align: left;
     }
 
     .email {
-        font-size: 1.25rem;
+        font-size: 1rem;
         text-align: left;
         margin: 0 0 1em 0;
     }
 
     .social_media {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         justify-content: flex-start;
         margin: 0 2.2em 0 0;
     }
 
-    #linkedin {
-        margin: 0 .5em 0 0;
-    }
-
     #github {
-        margin: 0 .5em 0 0;
+        margin: 0 .5em 0 .5em;
     }
 
 }
