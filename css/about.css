@@ -8,7 +8,7 @@
 .monologo {
     width: 7.5em;
     height: 7.5em;
-    margin: 0 0 0 0;
+    margin: 0 1.75em 0 0;
 }
 
 .homepage_nav {
@@ -60,10 +60,6 @@ li {
 .profilepicture {
     width: 25em;
     height: auto;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
 }
 
 .headline {
@@ -162,10 +158,6 @@ a:hover {
     .profilepicture {
         width: 30em;
         height: auto;
-        border-top-left-radius: 50% 50%;
-        border-top-right-radius: 50% 50%;
-        border-bottom-right-radius: 50% 50%;
-        border-bottom-left-radius: 50% 50%;
         margin: 0 10em 0 0;
     }
 

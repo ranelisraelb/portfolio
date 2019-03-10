@@ -44,7 +44,7 @@ a:hover {
     .homepage_logo {
         display: flex;
         justify-content: center;
-        margin: 10em 0 0 0;
+        margin: 10em 3em 0 0;
     }
 
     .logo {
