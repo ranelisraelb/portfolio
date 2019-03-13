@@ -1,3 +1,4 @@
+/* Header CSS */
 .header {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     align-items: center;
 }
 
-.monologo {
+.logo {
     width: 7.5em;
     height: 7.5em;
     margin: 0 1.75em 0 0;
@@ -18,24 +19,6 @@
     margin: 2.5em 0 4em 0;
 }
 
-a {
-    transition: color .2s ease-in;
-}
-
-#active {
-    text-decoration: underline;
-}
-
-#active:hover {
-    color: black;
-}
-
-.circlespacer {
-    width: .5em;
-    height: .5em;
-    margin: 0 3em 0 3em;
-}
-
 .navlink {
     font-family: poppins;
     color: black;
@@ -43,21 +26,41 @@ a {
     font-size: 2rem;
 }
 
+.square_spacer {
+    width: .5em;
+    height: .5em;
+    margin: 0 3em 0 3em;
+}
+
+a {
+    transition: color .2s ease-in;
+}
+
+#current_page {
+    text-decoration: underline;
+}
+
+#current_page:hover {
+    color: black;
+}
+
 li {
     list-style-type: none;
 }
 
-.profile_picture {
+/* End of header CSS */
+/* Content CSS */
+.content {
+    margin: 0 10% 0 10%;
+}
+
+.profile_picture_div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.content {
-    margin: 0 10% 0 10%;
-}
-
-.profilepicture {
+.profile_picture {
     width: 25em;
     height: auto;
 }
@@ -80,15 +83,6 @@ li {
     font-family: poppins;
     font-size: 1.25rem;
     margin: 1em 0 0 0;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #a9a9a9;
 }
 
 .email {
@@ -115,6 +109,19 @@ a:hover {
 #instagram {
     margin: 0 1em 0 0;
 }
+
+/* Text Effects */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #a9a9a9;
+}
+
+/* End of text Effects */
+/* End of content CSS */
 
 @media only screen and (min-width: 1249px) {
     .header {
