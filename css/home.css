@@ -19,6 +19,10 @@
     font-size: 3em;
 }
 
+.navlink {
+    margin: 0 1em 0 0;
+}
+
 .square_spacer {
     display: flex;
     margin: 1em 0 1em 0;

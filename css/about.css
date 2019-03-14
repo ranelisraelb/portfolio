@@ -139,7 +139,7 @@ a:hover {
         align-items: center;
     }
 
-    .circlespacer {
+    .square_spacer {
         width: .6em;
         height: .6em;
     }
@@ -162,7 +162,7 @@ a:hover {
         margin: 5em 15% 0 15%;
     }
 
-    .profilepicture {
+    .profile_picture_div {
         width: 30em;
         height: auto;
         margin: 0 10em 0 0;
