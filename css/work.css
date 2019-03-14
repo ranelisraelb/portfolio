@@ -49,7 +49,7 @@ li {
 }
 
 /* End of header CSS */
-
+/* Content CSS */
 .content {
     margin: 0 10% 0 10%;
     display: flex;
@@ -94,7 +94,6 @@ a:hover {
 
 .job_title {
     font-family: poppins;
-    font-size: 1.5;
     text-align: center;
 }
 
@@ -148,5 +147,5 @@ a:hover {
         margin: 0 1em 0 1em;
     }
 
-
+    /* End of content CSS */
 }
