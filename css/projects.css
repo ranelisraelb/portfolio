@@ -77,13 +77,13 @@ a:hover {
     color: #a9a9a9;
 }
 
-.company_logo {
+.project_logo {
     width: 25em;
     height: 25em;
     border: 1px solid black;
 }
 
-.company_name {
+.project_name {
     font-family: poppins;
     font-size: 2rem;
     text-align: center;
@@ -92,7 +92,6 @@ a:hover {
 
 .job_title {
     font-family: poppins;
-    font-size: 1.5;
     text-align: center;
 }
 
