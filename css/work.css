@@ -50,11 +50,20 @@ li {
 /* End of header CSS */
 /* Content CSS */
 .content {
-    margin: 0 10% 0 10%;
+    margin: 0 10% 5em 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 0 5em 0;
+}
+
+.notice_div {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 1em auto;
+}
+
+.notice {
+    font-family: poppins;
 }
 
 .sec1,
