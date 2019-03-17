@@ -97,7 +97,7 @@ li {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
-    margin: 1em auto 1em auto;
+    margin: 1em auto 5em auto;
     justify-content: center;
 }
 
