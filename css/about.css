@@ -162,9 +162,12 @@ a:hover {
     }
 
     .profile_picture_div {
+        margin: 0 10em 0 0;
+    }
+
+    .profile_picture {
         width: 30em;
         height: auto;
-        margin: 0 10em 0 0;
     }
 
     .headline {
