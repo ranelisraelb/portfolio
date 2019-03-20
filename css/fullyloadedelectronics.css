@@ -1,0 +1,169 @@
+/* Header CSS */
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 10% 0 10%;
+    align-items: center;
+}
+
+.logo {
+    width: 10em;
+    height: 10em;
+}
+
+.homepage_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2.5em 0 4em 0;
+}
+
+.navlink {
+    font-family: poppins;
+    color: black;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.square_spacer {
+    width: .5em;
+    height: .5em;
+    margin: 0 .5em 0 3em;
+}
+
+a {
+    transition: color .2s ease-in;
+}
+
+#current_page {
+    text-decoration: underline;
+}
+
+#current_page:hover {
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* End of header CSS */
+.content {
+    margin: 0 10% 0 10%;
+}
+
+.client_screenshot_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client_screenshot {
+    width: 40em;
+    height: auto;
+    border: black solid 1px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: poppins;
+    font-size: 1.75em;
+    margin: 1em 0 0 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-size: 1.25rem;
+    margin: 1em 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #a9a9a9;
+}
+
+.company_website {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-family: poppins;
+    font-size: 1.25rem;
+    margin: 1.5em 0 2.5em 0;
+}
+
+@media only screen and (min-width: 1249px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 4em 15% 0 15%;
+        justify-content: space-between;
+
+    }
+
+    .homepage_nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .circlespacer {
+        width: .6em;
+        height: .6em;
+    }
+
+    .navlink {
+        font-family: poppins;
+        color: black;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5em 15% 0 15%;
+    }
+
+    .client_screenshot {
+        width: 40em;
+        height: auto;
+        margin: 0 10em 0 0;
+    }
+
+    .headline {
+        font-size: 1.25rem;
+        flex-direction: row;
+        margin: 0 0 1em 0;
+
+    }
+
+    .description {
+        font-size: 1rem;
+        margin: 0 0 1em 0;
+        text-align: left;
+    }
+
+    .company_website {
+        font-size: 1rem;
+        text-align: left;
+        margin: 0 0 1em 0;
+    }
+}
